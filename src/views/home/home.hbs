@@ -1,0 +1,11 @@
+<h1>This is my list of Pokemons!</h1>
+
+<ul>
+  {{#each pokemons}}
+    <li>
+      <div><b>Name: </b> {{this.name }}</div>
+      <div><b>URL: </b> <a href="{{this.url }}">{{this.url }}</a></div>
+    </li>
+    <br>
+  {{/each}}
+</ul>
